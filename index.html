@@ -1,0 +1,203 @@
+<!-- Header Start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNC Designs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #0d6efd; /* Blue header */
+      color: white;
+      padding: 20px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CNC Designs</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+<!-- Header End -->
+<section id="home" style="
+  background-image: url('hero-bg.jpg'); /* इसी folder में image है */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+">
+  <h2 style="font-size:32px; margin-bottom:20px;">Welcome to CNC Designs</h2>
+  <p style="font-size:18px; max-width:600px; margin:auto;">
+    High-precision custom CNC designs for your projects. From 2D layouts to complex 3D models, we bring your ideas to life.
+  </p>
+  <a href="#contact" style="
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 25px;
+    background-color:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+  ">
+    Contact Us
+  </a>
+</section>
+<!-- About Section Start -->
+<section id="about" style="padding:60px 20px; background-color:white; text-align:center;">
+  <h2 style="font-size:28px; color:#0d6efd; margin-bottom:20px;">About Us</h2>
+  <p style="font-size:16px; max-width:700px; margin:auto; color:#333; line-height:1.6;">
+    NAVEEN GEHLOT has 5+ years of experience in CNC designing. Expertise in AutoCAD, SolidWorks, and Fusion 360. 
+    We provide high-precision, production-ready designs for custom projects. Our goal is to bring your ideas to life with accuracy and reliability.
+  </p>
+  <div style="margin-top:30px; display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+    <div style="background-color:#f5f5f5; padding:20px; border-radius:8px; width:200px;">
+      <h3 style="color:#0d6efd; margin-bottom:10px;">Custom Designs</h3>
+      <p style="font-size:14px; color:#333;">Tailored CNC designs for any project size.</p>
+    </div>
+    <div style="background-color:#f5f5f5; padding:20px; border-radius:8px; width:200px;">
+      <h3 style="color:#0d6efd; margin-bottom:10px;">3D Modeling</h3>
+      <p style="font-size:14px; color:#333;">Accurate 3D models ready for production.</p>
+    </div>
+    <div style="background-color:#f5f5f5; padding:20px; border-radius:8px; width:200px;">
+      <h3 style="color:#0d6efd; margin-bottom:10px;">Prototyping</h3>
+      <p style="font-size:14px; color:#333;">Quick prototyping with precise dimensions.</p>
+    </div>
+  </div>
+</section>
+<!-- Services Section Start -->
+<section id="services" style="padding:60px 20px; background-color:#f5f5f5; text-align:center;">
+  <h2 style="font-size:28px; color:#0d6efd; margin-bottom:40px;">Our Services</h2>
+  
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
+    
+    <div style="background-color:white; padding:20px; border-radius:8px; width:220px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      <h3 style="color:#0d6efd; margin-bottom:10px;">Custom CNC Designs</h3>
+      <p style="font-size:14px; color:#333;">Tailored 2D & 3D CNC designs for any material and project size.</p>
+    </div>
+
+    <div style="background-color:white; padding:20px; border-radius:8px; width:220px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      <h3 style="color:#0d6efd; margin-bottom:10px;">3D Modeling</h3>
+      <p style="font-size:14px; color:#333;">High-precision 3D CAD models ready for production.</p>
+    </div>
+
+    <div style="background-color:white; padding:20px; border-radius:8px; width:220px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      <h3 style="color:#0d6efd; margin-bottom:10px;">Prototyping</h3>
+      <p style="font-size:14px; color:#333;">Quick prototyping with CNC-ready accurate dimensions.</p>
+    </div>
+
+    <div style="background-color:white; padding:20px; border-radius:8px; width:220px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      <h3 style="color:#0d6efd; margin-bottom:10px;">Material Consultation</h3>
+      <p style="font-size:14px; color:#333;">Advice on best materials and machining process for your project.</p>
+    </div>
+
+  </div>
+</section>
+<!-- Services Section End -->
+<!-- About Section End -->
+<section id="portfolio" style="padding:60px 20px; background-color:#e9ecef; text-align:center;">
+  <h2 style="font-size:28px; color:#0d6efd; margin-bottom:40px;">Our Portfolio</h2>
+  
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
+    <div style="background-color:white; padding:10px; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      <img src="stone1.jpg" alt="Stone Design 1" style="width:100%; border-radius:8px;">
+      <h3 style="color:#0d6efd; margin-top:10px;">Stone Design 1</h3>
+      <p style="font-size:14px; color:#333;">Custom CNC design on marble stone.</p>
+    </div>
+    <div style="background-color:white; padding:10px; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      <img src="stone2.jpg" alt="Stone Design 2" style="width:100%; border-radius:8px;">
+      <h3 style="color:#0d6efd; margin-top:10px;">Stone Design 2</h3>
+      <p style="font-size:14px; color:#333;">Intricate pattern CNC carved on stone.</p>
+    </div>
+    <div style="background-color:white; padding:10px; border-radius:8px; width:250px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+      <img src="stone3.jpg" alt="Stone Design 3" style="width:100%; border-radius:8px;">
+      <h3 style="color:#0d6efd; margin-top:10px;">Stone Design 3</h3>
+      <p style="font-size:14px; color:#333;">High-precision CNC design for custom project.</p>
+    </div>
+  </div>
+</section>
+<!-- Contact Section Start -->
+<section id="contact" style="padding:60px 20px; background-color:white; text-align:center;">
+  <h2 style="font-size:28px; color:#0d6efd; margin-bottom:20px;">Contact Us</h2>
+  <p style="font-size:16px; color:#333; line-height:1.6; max-width:700px; margin:auto;">
+    Reach out for custom CNC designs or inquiries. We are available 24 hours.
+  </p>
+
+  <div style="margin-top:30px; display:flex; flex-direction:column; gap:15px; align-items:center;">
+    <p style="font-size:16px; color:#333;"><strong>Name:</strong> Naveen Gehlot</p>
+    <p style="font-size:16px; color:#333;"><strong>WhatsApp / Phone:</strong> <a href="https://wa.me/919602295754" style="color:#0d6efd; text-decoration:none;">96022 95754</a></p>
+    <p style="font-size:16px; color:#333;"><strong>Address:</strong> Sodha Ki Dhani, Kali Beri, Soorsager, Jodhpur, Rajasthan 342024</p>
+    <p style="font-size:16px; color:#333;"><strong>Email:</strong> <a href="mailto:naveengehl49@gmail.com" style="color:#0d6efd; text-decoration:none;">naveengehl49@gmail.com</a></p>
+  </div>
+
+  <a href="https://wa.me/919602295754" style="
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 25px;
+    background-color:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+  ">Message on WhatsApp</a>
+  <a href="https://www.instagram.com/artcamdesigner19" target="_blank" style="
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 25px;
+  background-color:#E1306C;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:bold;
+">
+  Visit Instagram
+</a>
+</section>
+<!-- Contact Section End -->
